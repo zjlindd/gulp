@@ -1,0 +1,30 @@
+.ng-enter {
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 0;
+}
+.ng-enter-active {
+  opacity: 1;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: #000;
+  font-size: 0.42666667rem;
+}
+button {
+  border-width: 0;
+  outline-width: 0;
+}
+/*1.定义变量*/
+/*2.定义函数*/
+/*内部嵌套*/
+.box {
+  padding-top: 0.53333333rem;
+  color: red;
+  width: 100px;
+}

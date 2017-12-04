@@ -1,0 +1,17 @@
+{
+  "name": "gulp",
+  "description": "this is a gulp test",
+  "main": "index.js",
+  "authors": [
+    "zjlindd"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,1 @@
+console.log("hello,我是directive文件")

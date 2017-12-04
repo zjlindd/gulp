@@ -1,0 +1,18 @@
+@import '2.less';
+
+/*1.定义变量*/
+@defaultColor: #fff;
+@defaultWidth: 400px;
+
+/*2.定义函数*/
+.pt(@px) {
+  padding-top: unit(@px / 37.5, rem);
+}
+//unit更换单位
+
+/*内部嵌套*/
+.box {
+  .pt(20);
+  color:red;
+  width:100px;
+}
